@@ -7,4 +7,3 @@ A program that opens a invisible window with the preview from your capture devic
 ## Bugs
 * No Audio support(will be worked on in the future) so now you would need to have audio as Line in on your PC(or use a another capture card)
 * When exiting/stopping the capture card it sometimes fails to do so and thus the program still uses some RAM
-* High memory usage, not sure if this is because of the way i coded it or that the DirectShow library does this on it's own
