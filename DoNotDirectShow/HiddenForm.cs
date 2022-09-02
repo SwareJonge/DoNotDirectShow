@@ -36,6 +36,8 @@ namespace DoNotDirectShow
             {
                 if (disposed == false)
                 {
+                    if (ccPreview.Image != null)
+                        ccPreview.Image.Dispose();
                     ccPreview.Image = img;
                     Size = ccPreview.Size = new Size(img.Width, img.Height); // update form size
                 }
